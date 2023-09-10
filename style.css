@@ -1,0 +1,100 @@
+.container-fluid {
+    /* border: 2px solid black; */
+}
+
+.row {
+    /* border: 3px solid green; */
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box1 {
+    /* border: 1px solid blue; */
+    height: 900px;
+    display: inline-flex;
+
+}
+
+.box {
+    margin-top: 20%;
+    /* border: 1px solid black; */
+    width: 45%;
+    float: right;
+    text-align: center;
+}
+
+.cointainer {
+    top: 50%;
+    /* border: 1px solid red; */
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.cointainer2 {
+    top: 50%;
+    /* border: 1px solid red; */
+    position: sticky;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.bgclr {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.btm {
+    background-color: white;
+    height: 470px;
+    /* border: 4px solid black; */
+    /* padding: 10px; */
+}
+
+#five:hover {
+    transition: all 2s, 1.9s;
+    transform: scale(110%);
+
+}
+
+.bord {
+    margin: auto;
+    /* border: 1px solid white; */
+    padding: 5%;
+    height: 300px;
+
+
+}
+
+.copy {
+    margin: auto;
+}
+
+@media all and (max-width: 600px) {
+    .box {
+        /* border: 1px solid black; */
+        margin-right: 30%;
+       
+    }
+}
